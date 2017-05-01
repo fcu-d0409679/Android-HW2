@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        etInput = (EditText)findViewById(R.id.et_input);
+        etInput = (EditText)findViewById(R.id.et_input);//透過findViewById找到一個控件，並使用=把他綁在一個變數上， 我們就可以利用那個變數操作綁定的控件
         btnCacl = (Button)findViewById(R.id.btn_cacl);
 
         btnCacl.setOnClickListener(new View.OnClickListener() {
